@@ -1,0 +1,265 @@
+/*Variables*/
+/*General Elements*/
+html {
+  overflow-x: hidden;
+}
+
+a {
+  color: #FFF !important;
+}
+
+aside {
+  background: linear-gradient(40deg, rgba(195, 110, 196, 0.9), rgba(190, 115, 245, 0.9)) !important;
+  text-transform: capitalize !important;
+}
+
+aside section {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+aside section label:hover {
+  color: rgba(0, 0, 0, 0.7) !important;
+  cursor: pointer;
+}
+
+button, input[type=button], input[type=submit] {
+  cursor: pointer;
+}
+
+header {
+  font-family: "Pacifico", cursive;
+}
+
+hr {
+  background-color: #212121 !important;
+  color: #212121 !important;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+main, footer {
+  font-family: "Encode Sans Condensed", sans-serif;
+}
+
+main img {
+  height: 25%;
+}
+
+/*IDs*/
+#browse-profilePic, #desired-username, #upload-btn, #username-submit {
+  display: none;
+}
+
+#login-button, #signup-button {
+  float: right;
+  position: relative;
+  top: 0em;
+}
+
+#logout-button {
+  float: right;
+  position: relative;
+  top: -5.5em;
+}
+
+#site-logo {
+  height: 10%;
+  width: 6%;
+}
+
+/*Classes*/
+.b-drop-elem a:hover, .s-drop-elem a:hover, .t-drop-elem a:hover {
+  text-decoration: underline !important;
+}
+
+.border-color {
+  display: none;
+}
+
+.bottoms-container, .torso-container, .shoes-container {
+  display: inline;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container h2 {
+  font-size: 3em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.fa-arrow-alt-circle-left, .fa-arrow-alt-circle-right {
+  color: rgba(0, 0, 0, 0.75);
+  position: relative;
+  top: 2em;
+}
+
+.fa-arrow-alt-circle-left:hover, .fa-arrow-alt-circle-right:hover {
+  color: #000;
+}
+
+.fa-arrow-alt-circle-left {
+  right: 5%;
+}
+
+.fa-arrow-alt-circle-right {
+  right: -95%;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+.fa-search {
+  font-size: 1.5em;
+  position: relative;
+  right: -77%;
+  top: -1.5em;
+}
+
+.fa-search:hover, .item-cycle-arrows:hover {
+  cursor: pointer;
+}
+
+.img-minimize {
+  display: inline !important;
+  height: 25%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 25%;
+}
+
+.item-cycle-arrows {
+  display: inline;
+  font-size: 3em !important;
+}
+
+.page-numbers {
+  display: inline;
+  position: relative;
+  right: -50%;
+  top: -60em;
+}
+
+.profile-option {
+  background-color: purple;
+  border-radius: 50%;
+  color: #FFF;
+  cursor: pointer;
+  position: relative;
+  right: -42.5%;
+  text-align: center;
+  width: 15%;
+}
+
+.profilePic-header {
+  right: -90%;
+  top: -4em;
+}
+
+.profilePic {
+  border: 4px solid purple;
+  border-radius: 100%;
+  cursor: pointer;
+  height: 18%;
+  position: relative;
+  width: 10%;
+}
+.profilePic + div {
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  right: -46%;
+  top: -2.5em !important;
+}
+.profilePic + div:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  cursor: pointer;
+  position: relative;
+  right: -46%;
+  width: 8%;
+}
+
+.search-box {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Encode Sans Condensed", sans-serif;
+  position: relative;
+  right: -80%;
+  top: -2.5em;
+}
+
+.search-results-01, .search-results-02, .search-results-03, .search-results-04, .search-results-05 {
+  display: inline-block !important;
+  height: 25%;
+  margin-bottom: -5%;
+  position: relative;
+  right: -42.5%;
+}
+.search-results-01 img, .search-results-02 img, .search-results-03 img, .search-results-04 img, .search-results-05 img {
+  height: 100%;
+}
+.search-results-01 img:hover, .search-results-02 img:hover, .search-results-03 img:hover, .search-results-04 img:hover, .search-results-05 img:hover {
+  background: linear-gradient(40deg, rgba(32, 150, 255, 0.9), rgba(5, 255, 163, 0.9)) !important;
+}
+
+.search-results-01 {
+  top: -95em;
+}
+
+.search-results-02 {
+  top: -90em;
+}
+
+.search-results-03 {
+  top: -85em;
+}
+
+.search-results-04 {
+  top: -79em;
+}
+
+.search-results-05 {
+  top: -73em;
+}
+
+.signup-form {
+  left: 40%;
+  position: relative;
+}
+
+.site-title {
+  position: relative;
+  text-align: center;
+  top: 4rem;
+}
+
+.t-drop-elem, .b-drop-elem, .s-drop-elem {
+  display: none;
+}
+.t-drop-elem a, .b-drop-elem a, .s-drop-elem a {
+  padding-right: 0.5em;
+}
+
+.username {
+  background-color: #212121;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  right: -92.5%;
+  top: -4em;
+  width: 6em !important;
+}
+
+.vertical-divider {
+  color: #9933CC;
+  display: inline;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
   <?php
-    require "header.php";
+    require "../PHP/header.php";
   ?>
 
     <main>
@@ -9,10 +9,10 @@
         <input name="userMail" type="email" placeholder="Email"/><br><br>
         <input name="userPwd" type="password" placeholder="Enter Password"/><br><br>
         <input name="userPwdConfirm" type="password" placeholder="Re-enter Password" /><br><br>
-        <input name="signupSubmit" type="submit" value="Sign Up"/><br><br>
-      </form>  
+        <input class="btn blue-gradient" name="signupSubmit" type="submit" value="Sign Up"/><br><br>
+      </form>
     </main>
 
   <?php
-    require "footer.php";
+    require "../PHP/footer.php";
   ?>

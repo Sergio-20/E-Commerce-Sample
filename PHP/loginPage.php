@@ -7,7 +7,7 @@
         <h2>Login To Your Account</h2>
         <input name="emailUsername" type="text" placeholder="Username or Email"/><br><br>
         <input name="pwd" type="password" placeholder="Enter Password"/><br><br>
-        <input name="loginSubmit" type="submit" value="Login"/><br><br>
+        <input class="btn blue-gradient" name="loginSubmit" type="submit" value="Login"/><br><br>
         <a href="#">Forgot Your Username?</a>
         <a href="#">Forgot Your Password?</a>
       </form>
