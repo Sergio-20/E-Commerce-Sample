@@ -1,5 +1,36 @@
 <?php
+    error_reporting(0);
     session_start();
+
+    include "dbh.php";
+
+    //mysqli_connect($servername, $dBUsername, $dBPassword);
+    mysqli_select_db($connection, "E-Commerce Accounts");
+
+    $query = $_POST["search-bar"];
+
+    if(isset($_POST["search-bar"]))
+    {
+      $query = preg_replace("#[^0-9a-z]#i", "", $query);
+
+      $mysqlQuery = mysqli_query($connection, "SELECT * FROM item_colors WHERE color LIKE '%$query%' ");
+      $count = mysqli_num_rows($mysqlQuery);
+
+      if($count == 0)
+      {
+        $query = "";
+      }
+      else
+      {
+        while($row = mysqli_fetch_array($mysqlQuery))
+        {
+          $color = $row['color'];
+
+          $output .= "<div>$color</div>";
+        }
+      }
+
+    }
 ?>
 <!DOCTYPE html>
 <html>
@@ -60,8 +91,9 @@
             </div>
         </div>
         <form action="searchResults.php" method='post'>
-          <input class="search-box" type="text" placeholder="Search..."/><i class="fas fa-search text-light" onclick="gotoSearchResults()"></i>
+          <input class="search-box" type="text" name="search-bar" placeholder="Search..." value="<?php echo $query ?>"/><i class="fas fa-search text-light" onclick="gotoSearchResults()"></i>
         </form>
+        <?php echo $output ?>
         <h1 class="site-title purple-gradient text-light">Effortless Apparel</h1>
 
         <?php

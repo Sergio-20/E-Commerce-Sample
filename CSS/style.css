@@ -17,7 +17,10 @@ aside section {
   font-size: 1.5em;
   font-weight: bolder;
 }
-aside section label:hover {
+aside section form div ul {
+  list-style-type: none;
+}
+aside label:hover {
   color: rgba(0, 0, 0, 0.7) !important;
   cursor: pointer;
 }

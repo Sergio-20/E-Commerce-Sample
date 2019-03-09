@@ -19,15 +19,19 @@ $secondaryFont: 'Encode Sans Condensed', sans-serif;
     }
 
     aside {
-      section{
+      section {
         font-size: 1.5em;
         font-weight: bolder;
+          form div ul {
+                  list-style-type: none;
+              }
+            }
+
           label:hover {
             color: rgba(0,0,0,0.7) !important;
             cursor: pointer;
           }
       }
-    }
 
     button, input[type="button"], input[type="submit"] {
         cursor: pointer;
