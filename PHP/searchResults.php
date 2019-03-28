@@ -1,5 +1,5 @@
 <?php
-  include "../PHP/header.php";
+  include "header.php";
  ?>
 
 <main onload="sortColor();sortPrice();sortSize();sortType();">
@@ -154,55 +154,243 @@
 
     </div>
 
-    <div class='search-results-01 row'>
+    <div class="search-img-container">
 
-      <p class='col-sm-5'></p>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
+      <div class='search-results-01 row'>
 
-    </div>
+        <p class='col-sm-5'></p>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
 
-    <div class='search-results-02 row'>
+      </div>
 
-      <p class='col-sm-5'></p>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
+      <div class='search-results-02 row'>
 
-    </div>
+        <p class='col-sm-5'></p>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
 
-    <div class='search-results-03 row'>
+      </div>
 
-      <p class='col-sm-5'></p>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg'/>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
+      <div class='search-results-03 row'>
 
-    </div>
+        <p class='col-sm-5'></p>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg'/>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
 
-    <div class='search-results-04 row'>
+      </div>
 
-      <p class='col-sm-5'></p>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
+      <div class='search-results-04 row'>
 
-    </div>
+        <p class='col-sm-5'></p>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
 
-    <div class='search-results-05 row'>
+      </div>
 
-      <p class='col-sm-5'></p>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
-      <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
+      <div class='search-results-05 row'>
 
-    </div>
+        <p class='col-sm-5'></p>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
+        <img class='btn col-sm-2' src='https://thumbs.dreamstime.com/z/blank-white-t-shirt-mock-up-grey-background-front-side-view-blank-white-t-shirt-mock-up-grey-background-front-side-view-106854425.jpg' alt='Img'/>
 
-    <div class='page-numbers'>
-      <label><i class='fas fa-chevron-left'></i></label>
-      <label class='btn purple-gradient'>1</label> <label class='btn aqua-gradient'>2</label> <label class='btn aqua-gradient'>3</label> <label class='btn aqua-gradient'>4</label> <label class='btn aqua-gradient'>5</label>
-      <label><i class='fas fa-chevron-right'></i></label>
+      </div>
+      <?php
+      mysqli_select_db($connection, "E-Commerce Accounts");
+
+      $query = $_POST["search-bar"];
+
+      if(isset($_POST["search-bar"]))
+      {
+        $query = preg_replace("#[^0-9a-z ]#i", "", $query);
+
+        $itemQuery = mysqli_query( $connection, " SELECT description FROM items WHERE description LIKE '%$query%' ");
+        $count = mysqli_num_rows($itemQuery);
+
+        if($count == 0)
+        {
+          $query = "";
+        }
+        else
+        {
+          $tops = array("top", "tops", "shirt", "shirts", "jacket", "jackets", "hoodie", "hoodies", "sweater", "sweaters");
+          $bottoms = array("pants", "shorts", "sweatpants");
+
+          /**Bottoms**/
+          if( $query == $bottoms[0] )
+          {
+            echo
+            "
+            <script>
+
+            function changeImage()
+            {
+              let images = document.querySelectorAll('div img');
+              for(let i = 0; i < images.length; i++)
+              {
+                images[i].src = 'https://thumbs.dreamstime.com/z/red-skinny-high-waist-jeans-pants-isolated-white-background-women%C3%A2%E2%82%AC%E2%84%A2s-87956891.jpg';
+              }
+            }
+            changeImage();
+
+            </script>
+            ";
+          }
+
+          else if( $query == $bottoms[1] )
+          {
+            echo
+            "
+            <script>
+
+            function changeImage()
+            {
+              let images = document.querySelectorAll('div img');
+              for(let i = 0; i < images.length; i++)
+              {
+                images[i].src = 'https://thumbs.dreamstime.com/z/red-child-pants-close-up-front-view-chino-isolated-white-background-54719542.jpg';
+              }
+            }
+            changeImage();
+
+            </script>
+            ";
+          }
+
+          if( $query == $bottoms[2] )
+          {
+            echo
+            "
+            <script>
+
+            function changeImage()
+            {
+              let images = document.querySelectorAll('div img');
+              for(let i = 0; i < images.length; i++)
+              {
+                images[i].src = 'https://thumbs.dreamstime.com/z/sport-sweatpants-isolated-white-background-44275880.jpg';
+              }
+            }
+            changeImage();
+
+            </script>
+            ";
+          }
+
+          /**Tops**/
+          else if( $query == $tops[0] || $query == $tops[1] || $query == $tops[2] || $query == $tops[3] )
+          {
+            echo
+            "
+            <script>
+
+            function changeImage()
+            {
+              let images = document.querySelectorAll('div img');
+              for(let i = 0; i < images.length; i++)
+              {
+                  images[i].src = 'https://thumbs.dreamstime.com/z/red-polo-shirt-clothes-isolated-white-background-88747852.jpg';
+              }
+            }
+            changeImage();
+
+            </script>
+            ";
+          }
+
+          else if( $query == $tops[4] || $query == $tops[5] )
+          {
+            echo
+            "
+            <script>
+
+            function changeImage()
+            {
+              let images = document.querySelectorAll('div img');
+              for(let i = 0; i < images.length; i++)
+              {
+                images[i].src = 'https://thumbs.dreamstime.com/z/red-jacket-28286300.jpg';
+              }
+            }
+            changeImage();
+
+            </script>
+            ";
+          }
+          else if( $query == $tops[6] || $query == $tops[7] )
+          {
+            echo
+            "
+            <script>
+
+            function changeImage()
+            {
+              let images = document.querySelectorAll('div img');
+              for(let i = 0; i < images.length; i++)
+              {
+                if(i % 2 == 0)
+                {
+                  images[i].src = 'https://thumbs.dreamstime.com/z/red-hoodie-sweatshirt-mockup-isolated-white-background-91932637.jpg';
+                }
+                else
+                {
+                  images[i].src = 'https://thumbs.dreamstime.com/z/red-hoodie-sweatshirt-mockup-isolated-white-background-91929838.jpg';
+                }
+              }
+            }
+            changeImage();
+
+            </script>
+            ";
+          }
+
+          else if( $query == $tops[8] || $query == $tops[9] )
+          {
+            echo
+            "
+            <script>
+
+            function changeImage()
+            {
+              let images = document.querySelectorAll('div img');
+              for(let i = 0; i < images.length; i++)
+              {
+                if(i % 2 == 0)
+                {
+                  images[i].src = 'https://thumbs.dreamstime.com/z/red-sweater-isolated-white-31275518.jpg';
+                }
+                else
+                {
+                  images[i].src = 'https://thumbs.dreamstime.com/z/red-knitted-sweater-isolated-white-36108957.jpg';
+                }
+              }
+            }
+            changeImage();
+
+            </script>
+            ";
+          }
+
+          else
+          {
+            echo "<script>alert('No matches found...');</script>";
+          }
+        }
+
+      }
+       ?>
+
+      <div class='page-numbers'>
+        <label><i class='fas fa-chevron-left'></i></label>
+        <label class='btn purple-gradient'>1</label> <label class='btn aqua-gradient'>2</label> <label class='btn aqua-gradient'>3</label> <label class='btn aqua-gradient'>4</label> <label class='btn aqua-gradient'>5</label>
+        <label><i class='fas fa-chevron-right'></i></label>
+      </div>
+
     </div>
 
   </div>

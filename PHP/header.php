@@ -4,33 +4,6 @@
 
     include "dbh.php";
 
-    //mysqli_connect($servername, $dBUsername, $dBPassword);
-    mysqli_select_db($connection, "E-Commerce Accounts");
-
-    $query = $_POST["search-bar"];
-
-    if(isset($_POST["search-bar"]))
-    {
-      $query = preg_replace("#[^0-9a-z]#i", "", $query);
-
-      $mysqlQuery = mysqli_query($connection, "SELECT * FROM item_colors WHERE color LIKE '%$query%' ");
-      $count = mysqli_num_rows($mysqlQuery);
-
-      if($count == 0)
-      {
-        $query = "";
-      }
-      else
-      {
-        while($row = mysqli_fetch_array($mysqlQuery))
-        {
-          $color = $row['color'];
-
-          $output .= "<div>$color</div>";
-        }
-      }
-
-    }
 ?>
 <!DOCTYPE html>
 <html>
